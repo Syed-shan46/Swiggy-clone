@@ -1,0 +1,220 @@
+.container {
+    width: 80%; /* Adjust the width as per your design */
+    max-width: 1300px; /* Optional: Set a maximum width to limit container size on larger screens */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    /* Additional styling properties can be added based on your design */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: rgba(2, 6, 12, 0.6);
+  }
+  h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(2, 6, 12, 0.6);
+    
+  }
+
+header{
+    display: flex;
+    margin-left: 10%;
+        
+}
+
+
+
+.logo img{
+    width: 60px;
+}
+
+.other{
+    margin-left: 50px;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+}
+
+ ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-right{
+    margin-left: 40%;
+    display: flex;
+}
+
+.nav-right li{
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+/* Items */
+.items-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.items img{
+    width: 140px;
+}
+
+.items{
+    margin-left: 25px;
+}
+
+/* Restaurants */
+.main-img-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.star-logo img{
+    width: 20px;
+
+}
+
+.img-box img{
+    width: 250px;
+    border-radius: 20px;
+    max-height: 23vh;
+    object-fit: cover;
+}
+
+.img-box{
+    border-radius: 25px;
+    position: relative;
+    margin-top: 50px;
+    width: 250px;
+   
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Adjust the height of the black fade as needed */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    border-radius: 25px;
+    z-index: 0;
+  }
+
+.name{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    color: white;
+    z-index: 1;
+}
+
+.content{
+    width: 280px;
+    line-height: 1.6;
+}
+
+.content p{
+    font-size: 14px;
+    color: rgba(2, 6, 12, 0.6);
+    max-width: 270px;
+}
+
+/* Sorting list */
+
+.sort li{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+    border: solid 1px rgb(175, 175, 175);
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Restaurants */
+.restaurants-main{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.restaurants-place{
+    flex-basis: 20%;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: solid 1px rgb(204, 203, 203);
+    padding: 15px;
+}
+
+/* Download */
+.download-head{
+    background-color:rgb(240, 240, 245);
+    margin-top: 50px;
+}
+
+.download-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.download-imgs img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.download-app-imgs img{
+    width: 190px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.download{
+    max-width: 500px;
+    font-size: 26px;
+    color: rgba(2, 6, 12, 0.75);;
+}
+
+/* Footer  */
+.footer-list-head{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-head{
+    background-color: rgb(2, 6, 12);
+    color: white;
+    padding: 20px;
+}
+
+.head{
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.footer-list ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list li{
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+
